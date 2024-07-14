@@ -1,0 +1,372 @@
+.mySlides {display:none;}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+a:hover, a:active{
+    text-decoration: underline;
+    color: #000;
+}
+button:hover{
+    color: #999999;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: #f2f2f2;
+    line-height: 1.3;
+}
+
+
+
+header.entry-header {
+    text-align: center;
+    margin: auto;
+}
+div.restaurant-container {
+    text-align: center;
+    margin: auto;
+}
+.restaurant-container {
+    width: 1150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.gthieu-row {
+    width: 1150px;
+    float: center;
+    text-align: center;
+    margin: 15px;
+    gap: 16px;
+}
+.img-gthieu{
+    width: 450px;
+    float: left;
+    text-align: left;
+    margin-right: 40px;
+}
+.vien-text-gthieu{
+    width: 325px;
+    height: 340px;
+    float: left;
+    text-align: center;
+    margin-right: 16px;
+    background: white;
+}
+.text-gthieu{
+    width: 285px;
+    float: left;
+    text-align: left;
+    margin: 20px;
+    background: white;
+}
+.vien-book-now{
+    width: 254px;
+    height: 340px;
+    float: right;
+    text-align: center;
+    background: white;
+    margin-right: 10px;
+}
+.book-now{
+    width: 214px;
+    height: 300;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    background: white;
+}
+.book{
+    margin-top: 20px;
+    margin-bottom: 75px;
+    font: normal 525 18px/22px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.button-booknow{
+    text-transform: uppercase;
+    background-color: rgb(170, 170, 120);
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.free-cancel{
+    margin-top: 125px;
+    font: normal 2500 14px/22px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+
+
+div.infor-container {
+  text-align: center;
+  margin: auto;
+}
+.infor-container {
+    width: 1150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.infor-row {
+    width: 1150px;
+    float: left;
+    text-align: center;
+    gap: 16px;
+}
+.ZL{
+    width: 350px;
+    height: 430px;
+    float: left;
+    text-align: left;
+    margin: 15px;
+    background-color: white;
+}
+.TT{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.information-1{
+    width: 280px;
+    height: 380px;
+    margin: 35px;
+}
+.section-name {
+    font: normal 700 18px/22px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.danh-gia {
+    width: 280px;
+    float: left;
+    text-align: left;
+    margin: 25px;
+}
+.vien-diem {
+    width: 280px;
+    float: left;
+    text-align: left; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+.diem-so{
+    width: 40px;
+    float: left;
+    text-align: left;
+    font: normal 700 24px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.diem-bong-tron{
+    width: 95px;
+    height: 16px;
+    float: left;
+    text-align: left;
+}
+.luot-danh-gia{
+    width: 145px;
+    float: left;
+    text-align: left;
+    font: normal 700 16px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.Dd{
+    fill: #00aa6c;
+    overflow: visible;
+}
+.Cc{
+    fill: #00aa6c;
+    overflow: visible;
+}
+.vien-xep-hang {
+    width: 280px;
+    float: left;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.khoang-trong{
+    width: 280px;
+    float: left;
+    text-align: center;
+}        
+.aBcD{
+    border-top: 1px solid;
+    color: #e0e0e0;
+}
+.list-name{
+    width: 280px;
+    float: left;
+    text-align: left;
+    margin-top: 16px;
+    font: normal 600 14px/14px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.picture {
+    width: 40px;
+    float: left;
+    text-align: left;
+}
+.name-list {
+    width: 80px;
+    float: left;
+    text-align: left;
+    font: normal 400 16px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.abc {
+    width: 280px;
+    float: left;
+    text-align: left;
+    margin-top: 16px;
+}       
+.bong-tron-diem {
+    width: 160px;
+    float: left;
+    text-align: right;
+}
+.lien-lac{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+.hinh-ve{
+    width: 30px;
+    float: left;
+    text-align: left;
+}
+.text-name{
+    width: 250px;
+    float: left;
+    text-align: left;
+}
+.chi-tiet{
+    margin-bottom: 14px;
+}
+.ten-dm{
+    font: normal 700 12px/14px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    margin-bottom: 8px;
+}
+.item-2{
+    font: normal 400 14px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+.xem-chi-tiet{
+    background-color: white;
+    border: none;
+    float: left;
+    text-align: left;
+}
+.item-3{
+    font: normal 700 14px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    text-decoration: underline;
+}
+
+
+#mus-703{
+    min-height: 100vh;
+
+}
+button#xem-menu{
+    background: #ffffff;
+    color: black;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    float: left;
+    text-align: left;
+}
+.item-3{
+    font: normal 700 14px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    text-decoration: underline;
+}
+#menu-container{
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out;
+}
+#menu-container.show{
+    opacity: 1;
+    pointer-events: all;
+}
+#menu-container.show .menu{
+    top: 100px;
+}
+.menu{
+    background: #fff;
+    max-width: 1100px;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%);
+    transition: all 0.25s ease-in-out;
+}
+.menu .menu-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dedede;
+}
+.menu .menu-header h1{
+    margin: 0;
+}
+button#menu-close{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu .menu-body{
+    width: 1100px;
+    padding: 10px 20px 15px;
+}
+.menu-row{
+    display: flex;
+}
+.gioi-thieu-mon-an{
+    border-right: 1px solid #e0e0e0;
+    max-width: 25%;
+    padding-right: 16px;
+}
+.mon-an{
+    max-width: 100%;
+    margin-left: 16px;
+}
+.chi-tiet-mon-an{
+    display: flex;
+    max-width: 750px;
+}
+.HN{
+    margin-right: 16px;
+}
+.ten-mon{
+    display: flex;
+    justify-content: space-between;
+}
+.ten-mon{
+    font: normal 600 18px/24px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    margin-bottom: 5px;
+    height: 38px;
+}
+.hd{
+    font: normal 400 14px/17px "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    margin-bottom: 8px;
+}
+.mon-an img{
+    display:block;
+    transition: all .3s ease;
+}
+.mon-an img:hover{
+    transform: scale(1.3);
+} 
+.mon-an div{
+    overflow: hidden;
+}
